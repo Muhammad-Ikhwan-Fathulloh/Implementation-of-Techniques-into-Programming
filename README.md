@@ -1,2 +1,5 @@
-# Implementation-of-Techniques-into-Programming
-Implementation of Techniques into Programming
+# Implementasi Metode Teknik ke dalam Pemrograman
+
+## Metode Keamanan
+## Metode Matematika
+## Metode Kecerdasan Buatan
