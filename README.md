@@ -1,37 +1,131 @@
 # Implementasi Metode Teknik ke dalam Pemrograman
 
 ## Metode Struktur Data
-- FIFO
-- LIFO
-- Queue
-- Graph
-- Tree
-- Lain-lain
+### FIFO (First In, First Out)
+- Karakteristik:
+  - Elemen yang pertama masuk adalah elemen yang pertama keluar.
+  - Digunakan dalam struktur data seperti **Queue**.
+  - Contoh penerapan: antrean dalam sistem tiket atau buffer data.
+
+### LIFO (Last In, First Out)
+- Karakteristik:
+  - Elemen yang terakhir masuk adalah elemen yang pertama keluar.
+  - Digunakan dalam struktur data seperti **Stack**.
+  - Contoh penerapan: fungsi undo/redo pada aplikasi.
+
+### Queue
+- Karakteristik:
+  - Implementasi FIFO.
+  - Mendukung operasi `enqueue` (memasukkan elemen) dan `dequeue` (mengeluarkan elemen).
+  - Contoh penerapan: sistem printer, pemrosesan antrian.
+
+### Graph
+- Karakteristik:
+  - Terdiri dari node (vertex) dan edge.
+  - Dapat berupa directed (arah) atau undirected (tanpa arah).
+  - Contoh penerapan: algoritma pencarian rute, jaringan sosial.
+
+### Tree
+- Karakteristik:
+  - Struktur hierarki dengan node akar (root) dan cabang (child nodes).
+  - Jenis: Binary Tree, Binary Search Tree, AVL Tree, dll.
+  - Contoh penerapan: struktur folder, parser sintaksis.
+
+### Lain-lain
+- Struktur data lain seperti **Hash Table**, **Linked List**, dan **Heap** juga sering digunakan dalam berbagai aplikasi pemrograman.
+
+---
 
 ## Metode Keamanan
-- RBAC (Role Base Access Control)
-- Kriptograpfi
-- Enkripsi dan Dekripsi
-- Lain-lain
+### RBAC (Role-Based Access Control)
+- Karakteristik:
+  - Mengatur akses berdasarkan peran pengguna.
+  - Meningkatkan keamanan dengan prinsip **least privilege**.
+  - Contoh penerapan: sistem manajemen pengguna di aplikasi web.
+
+### Kriptografi
+- Karakteristik:
+  - Teknik untuk melindungi data menggunakan algoritma enkripsi.
+  - Membantu menjaga kerahasiaan, integritas, dan otentikasi data.
+  - Contoh: RSA, AES, MD5.
+
+### Enkripsi dan Dekripsi
+- Karakteristik:
+  - Enkripsi: mengubah data menjadi format yang tidak dapat dibaca (ciphertext).
+  - Dekripsi: mengembalikan ciphertext ke format asli (plaintext).
+  - Contoh penerapan: perlindungan komunikasi data pada HTTPS.
+
+### Lain-lain
+- Teknik lain seperti **digital signature**, **hashing**, dan **firewall rules** juga diterapkan dalam keamanan.
+
+---
 
 ## Metode Pola Desain Pemrograman
-- SOLID
-    - S: Prinsip Tanggung Jawab Tunggal (Single Responsibility Principle, SRP) 
-    - O: Prinsip Terbuka/Tertutup (Open-Closed Principle, OCP) 
-    - L: Prinsip Substitusi Liskov (LSP) 
-    - I: Prinsip Pemisahan Antarmuka (Interface Segregation Principle, ISP) 
-    - D: Prinsip Pembalikan Ketergantungan (Dependency Inversion Principle)
-- Design Repository Service Pattern
-- Monolith dan Microservice
-- Lain-lain
+### SOLID
+- Karakteristik:
+  - Prinsip desain yang bertujuan meningkatkan skalabilitas dan pemeliharaan kode.
+
+#### S: Single Responsibility Principle (SRP)
+- Setiap kelas atau fungsi hanya memiliki satu tanggung jawab utama.
+
+#### O: Open-Closed Principle (OCP)
+- Kode terbuka untuk ekstensi tetapi tertutup untuk modifikasi.
+
+#### L: Liskov Substitution Principle (LSP)
+- Objek turunan harus dapat menggantikan objek induk tanpa mengubah fungsi aplikasi.
+
+#### I: Interface Segregation Principle (ISP)
+- Antarmuka besar harus dipecah menjadi antarmuka yang lebih spesifik.
+
+#### D: Dependency Inversion Principle (DIP)
+- Modul tingkat tinggi tidak boleh bergantung pada modul tingkat rendah.
+
+### Design Repository Service Pattern
+- Karakteristik:
+  - Memisahkan logika akses data dari logika bisnis.
+  - Menggunakan lapisan repository untuk mengelola operasi CRUD.
+
+### Monolith dan Microservice
+- Karakteristik:
+  - **Monolith**: Aplikasi terintegrasi dalam satu kesatuan.
+  - **Microservice**: Aplikasi dibagi menjadi layanan-layanan kecil yang independen.
+
+### Lain-lain
+- Pola desain lain seperti **Factory Pattern**, **Observer Pattern**, dan **Builder Pattern** juga digunakan untuk menyelesaikan masalah tertentu.
+
+---
 
 ## Metode Numerik
-- Rumus Matemetika
-- Lain-lain
+### Rumus Matematika
+- Karakteristik:
+  - Menggunakan metode numerik untuk menghitung solusi persamaan.
+  - Contoh: metode iterasi, interpolasi, atau integral numerik.
+
+### Lain-lain
+- Teknik seperti **finite difference**, **metode Euler**, dan **transformasi Fourier** sering diterapkan dalam pemrosesan data numerik.
+
+---
 
 ## Metode Kecerdasan Buatan
-- Data Science
-- Computer Vision
-- Natural Languange Processing
-- Reinforcement Learning
-- Lain-lain
+### Data Science
+- Karakteristik:
+  - Analisis data menggunakan algoritma statistik dan pembelajaran mesin.
+  - Contoh penerapan: prediksi, klasifikasi, dan clustering.
+
+### Computer Vision
+- Karakteristik:
+  - Menganalisis gambar dan video untuk mengenali objek atau pola.
+  - Contoh penerapan: deteksi wajah, OCR.
+
+### Natural Language Processing (NLP)
+- Karakteristik:
+  - Mengolah dan memahami teks atau suara dalam bahasa manusia.
+  - Contoh penerapan: chatbot, analisis sentimen.
+
+### Reinforcement Learning
+- Karakteristik:
+  - Belajar berdasarkan pemberian penghargaan atau hukuman.
+  - Contoh penerapan: robotika, game AI.
+
+### Lain-lain
+- Teknik lain seperti **deep learning**, **unsupervised learning**, dan **edge AI** juga digunakan dalam aplikasi AI.
