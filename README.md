@@ -1,5 +1,12 @@
 # Implementasi Metode Teknik ke dalam Pemrograman
 
+## Metode Struktur Data
+- FIFO
+- LIFO
+- Queue 
+- Tree
+- Lain-lain
+
 ## Metode Keamanan
 - RBAC
 - Kriptograpfi
@@ -12,7 +19,7 @@
 - Monolith dan Microservice
 - Lain-lain
 
-## Metode Matematika
+## Metode Numerik
 - Rumus Matemetika
 - Lain-lain
 
