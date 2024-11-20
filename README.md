@@ -3,12 +3,13 @@
 ## Metode Struktur Data
 - FIFO
 - LIFO
-- Queue 
+- Queue
+- Graph
 - Tree
 - Lain-lain
 
 ## Metode Keamanan
-- RBAC
+- RBAC (Role Base Access Control)
 - Kriptograpfi
 - Enkripsi dan Dekripsi
 - Lain-lain
