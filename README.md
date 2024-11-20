@@ -19,6 +19,18 @@
   - Mendukung operasi `enqueue` (memasukkan elemen) dan `dequeue` (mengeluarkan elemen).
   - Contoh penerapan: sistem printer, pemrosesan antrian.
 
+### Priority Queue
+- Karakteristik:
+  - Variasi dari Queue di mana setiap elemen memiliki prioritas tertentu.
+  - Elemen dengan prioritas lebih tinggi diproses lebih dulu, meskipun elemen tersebut masuk lebih lambat.
+  - Implementasi biasanya menggunakan struktur **Heap** atau **Binary Search Tree**.
+  - Mendukung operasi:
+    - `insert` (menambahkan elemen dengan prioritas tertentu).
+    - `extract-max` atau `extract-min` (menghapus elemen dengan prioritas tertinggi atau terendah).
+  - Contoh penerapan: 
+    - Sistem antrian rumah sakit (pasien dengan kondisi darurat diprioritaskan).
+    - Penjadwalan proses dalam sistem operasi.
+    
 ### Graph
 - Karakteristik:
   - Terdiri dari node (vertex) dan edge.
