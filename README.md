@@ -1,6 +1,6 @@
 # Implementasi Metode Teknik / Algoritma ke dalam Pemrograman
 
-## Definisi Metode Pengembangan dan Teknik
+## Definisi Metode Pengembangan dan Metode Teknik
 
 **Metode Pengembangan:**
 Metode pengembangan adalah pendekatan atau kerangka kerja sistematis yang digunakan untuk merancang, mengembangkan, dan memelihara perangkat lunak atau sistem. Metode ini mencakup proses, tahapan, dan prosedur yang perlu diikuti untuk mencapai hasil yang diinginkan, seringkali dalam waktu tertentu, dan dengan hasil yang efisien serta dapat dipertanggungjawabkan. Metode pengembangan sering kali berfokus pada pengelolaan proyek secara keseluruhan, termasuk manajemen waktu, anggaran, dan kualitas produk.
@@ -106,6 +106,11 @@ Misalnya, dalam pengembangan perangkat lunak berbasis *Agile*, tim dapat menggun
 ### Lain-lain
 - Struktur data lain seperti **Hash Table**, **Linked List**, dan **Heap** juga sering digunakan dalam berbagai aplikasi pemrograman.
 
+### Example Code
+- [Struktur Data - Bahasa Pemrograman Java](https://github.com/Muhammad-Ikhwan-Fathulloh/Data-Structure-Course-Bank/tree/main/Java%20Programming).
+
+- [Struktur Data - Bahasa Pemrograman Javascript](https://github.com/Muhammad-Ikhwan-Fathulloh/Implementation-of-Techniques-into-Programming/tree/main/StrukturData).
+
 ---
 
 ## Metode Keamanan
@@ -129,6 +134,9 @@ Misalnya, dalam pengembangan perangkat lunak berbasis *Agile*, tim dapat menggun
 
 ### Lain-lain
 - Teknik lain seperti **digital signature**, **hashing**, dan **firewall rules** juga diterapkan dalam keamanan.
+
+### Example Code
+- [Keamanan - Bahasa Pemrograman Javascript](https://github.com/Muhammad-Ikhwan-Fathulloh/Implementation-of-Techniques-into-Programming/tree/main/Keamanan).
 
 ---
 
@@ -159,6 +167,9 @@ Misalnya, dalam pengembangan perangkat lunak berbasis *Agile*, tim dapat menggun
 
 ### Lain-lain
 - Pola desain lain seperti **Factory Pattern**, **Observer Pattern**, dan **Builder Pattern** juga digunakan untuk menyelesaikan masalah tertentu.
+
+### Example Code
+- [Pola Desain Pemrograman - Bahasa Pemrograman Javascript](https://github.com/Muhammad-Ikhwan-Fathulloh/Implementation-of-Techniques-into-Programming/tree/main/PolaDesainPemrograman).
 
 ---
 
@@ -196,6 +207,11 @@ Misalnya, dalam pengembangan perangkat lunak berbasis *Agile*, tim dapat menggun
 
 ### Lain-lain
 - Teknik lain seperti **deep learning**, **unsupervised learning**, dan **edge AI** juga digunakan dalam aplikasi AI.
+
+### Example Code
+- [Kecerdasan Buatan - Bahasa Pemrograman Python](https://github.com/Muhammad-Ikhwan-Fathulloh/Implementation-of-Techniques-into-Programming/tree/main/KecerdasanBuatan).
+
+---
 
 ## Metode Web3
 
