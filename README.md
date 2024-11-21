@@ -1,4 +1,42 @@
-# Implementasi Metode Teknik ke dalam Pemrograman
+# Implementasi Metode Teknik / Algoritma ke dalam Pemrograman
+
+## Perbedaan Metode Pengembangan dan Metode Teknik
+
+| **Aspek**                 | **Metode Pengembangan**                                                                 | **Metode Teknik**                                                                 |
+|---------------------------|------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| **Definisi**               | Pendekatan sistematis untuk merancang, mengimplementasikan, dan memelihara perangkat lunak atau sistem. | Teknik atau algoritma spesifik yang digunakan untuk menyelesaikan masalah tertentu dalam pengembangan. |
+| **Fokus Utama**            | Proses dan tahapan pengembangan perangkat lunak secara keseluruhan.                     | Cara atau langkah spesifik untuk memecahkan masalah teknis dalam pengembangan.   |
+| **Contoh**                 | - Metode Agile, Scrum, Waterfall.                                                       | - Algoritma Sorting (Quick Sort, Merge Sort), Neural Networks, atau Regression.  |
+| **Cakupan**                | Menyeluruh (end-to-end) dari tahap perencanaan hingga pemeliharaan.                     | Spesifik pada langkah atau algoritma tertentu dalam pengembangan atau analisis.  |
+| **Tujuan**                 | Memastikan proyek berjalan sesuai rencana, efisien, dan dapat diselesaikan tepat waktu. | Menyediakan solusi efektif dan efisien untuk masalah teknis tertentu.            |
+| **Pendekatan**             | Biasanya lebih berorientasi pada manajemen proyek.                                      | Lebih berorientasi pada pemrograman atau implementasi teknis.                    |
+| **Dokumentasi**            | Biasanya mencakup keseluruhan siklus hidup proyek.                                      | Biasanya terkait dengan kode atau algoritma yang diimplementasikan.              |
+| **Tim yang Terlibat**      | Melibatkan manajer proyek, pengembang, QA, dan stakeholder lainnya.                     | Biasanya melibatkan pengembang, ilmuwan data, atau insinyur perangkat lunak.      |
+
+---
+
+## Penjelasan Lebih Lanjut
+
+### 1. Metode Pengembangan
+   - **Tujuan**: Menyediakan kerangka kerja untuk menyelesaikan proyek perangkat lunak dengan efisien.
+   - **Contoh Implementasi**:
+     - Dalam metode *Scrum*, tim melakukan pengembangan perangkat lunak melalui iterasi yang disebut *sprints*, di mana setiap sprint memiliki deliverable tertentu.
+
+### 2. Metode Teknik
+   - **Tujuan**: Memberikan pendekatan teknis untuk menyelesaikan masalah spesifik dalam pengembangan perangkat lunak atau data.
+   - **Contoh Implementasi**:
+     - Menggunakan *Dijkstra's Algorithm* untuk menemukan jalur terpendek dalam sebuah graf.
+     - Menggunakan *Backpropagation* untuk melatih jaringan neural.
+
+---
+
+## Hubungan Keduanya
+- **Metode pengembangan** adalah kerangka kerja besar yang digunakan untuk mengelola proyek perangkat lunak secara keseluruhan.
+- **Metode teknik** adalah alat atau solusi teknis yang digunakan dalam proses pengembangan berdasarkan metode pengembangan yang dipilih.
+
+Misalnya, dalam pengembangan perangkat lunak berbasis *Agile*, tim dapat menggunakan *Machine Learning* (metode teknik) untuk memproses data yang dikumpulkan selama pengembangan.
+
+---
 
 ## Metode Struktur Data
 ### FIFO (First In, First Out)
