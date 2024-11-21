@@ -7,7 +7,7 @@ Dalam manajemen proyek, salah satu cara untuk mengukur kinerja proyek adalah den
 Untuk menghitung **% CVL**, kita bisa menggunakan rumus berikut:
 
 \[
-\text{CVL} = \frac{\text{BCWP} - \text{BCWS}}{\text{BCWS}} \times 100
+text{CVL} = \frac{\text{BCWP} - \text{BCWS}}{\text{BCWS}} \times 100
 \]
 
 Dimana:
