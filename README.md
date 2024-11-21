@@ -1,5 +1,27 @@
 # Implementasi Metode Teknik / Algoritma ke dalam Pemrograman
 
+## Definisi Metode Pengembangan dan Teknik
+
+**Metode Pengembangan:**
+Metode pengembangan adalah pendekatan atau kerangka kerja sistematis yang digunakan untuk merancang, mengembangkan, dan memelihara perangkat lunak atau sistem. Metode ini mencakup proses, tahapan, dan prosedur yang perlu diikuti untuk mencapai hasil yang diinginkan, seringkali dalam waktu tertentu, dan dengan hasil yang efisien serta dapat dipertanggungjawabkan. Metode pengembangan sering kali berfokus pada pengelolaan proyek secara keseluruhan, termasuk manajemen waktu, anggaran, dan kualitas produk.
+
+- **Contoh Metode Pengembangan:**
+  - **Agile**: Pendekatan pengembangan perangkat lunak yang berfokus pada kolaborasi tim dan iterasi pendek. Mengutamakan fleksibilitas dan perubahan dalam perencanaan sesuai kebutuhan.
+  - **Waterfall**: Metode pengembangan tradisional yang mengikuti pendekatan linier, di mana setiap tahap harus diselesaikan sebelum melanjutkan ke tahap berikutnya.
+  - **Scrum**: Kerangka kerja Agile yang menggunakan sprint untuk mengelola pekerjaan dalam jangka waktu pendek dan berfokus pada hasil yang dapat diukur.
+
+---
+
+**Metode Teknik:**
+Metode teknik adalah pendekatan atau solusi spesifik yang digunakan untuk mengatasi masalah tertentu dalam pengembangan perangkat lunak, analisis data, atau penerapan algoritma dalam pemrograman. Teknik ini sering kali berupa langkah-langkah yang terstruktur atau algoritma yang diterapkan dalam tahap pengembangan untuk menyelesaikan masalah teknis dengan cara yang efisien dan efektif.
+
+- **Contoh Metode Teknik:**
+  - **Algoritma Sorting**: Teknik untuk menyusun data dalam urutan tertentu, seperti Quick Sort atau Merge Sort.
+  - **Neural Networks**: Algoritma yang digunakan dalam pembelajaran mesin untuk memodelkan pola dalam data yang kompleks.
+  - **Backpropagation**: Teknik dalam jaringan saraf tiruan untuk memperbaiki kesalahan dengan menggunakan data yang telah diproses sebelumnya untuk melatih model.
+
+---
+
 ## Perbedaan Metode Pengembangan dan Metode Teknik
 
 | **Aspek**                 | **Metode Pengembangan**                                                                 | **Metode Teknik**                                                                 |
@@ -226,3 +248,5 @@ Misalnya, dalam pengembangan perangkat lunak berbasis *Agile*, tim dapat menggun
 - **IPFS (InterPlanetary File System)**: Sistem penyimpanan file terdesentralisasi yang mendukung aplikasi Web3 dengan keamanan dan keandalan tinggi.
 - **Layer 2 Solutions**: Solusi untuk mengatasi keterbatasan skalabilitas blockchain utama, seperti mengurangi biaya transaksi dan meningkatkan kecepatan. Contoh: **Polygon**, **Arbitrum**.
 ---
+
+Dengan demikian, **metode pengembangan** berfokus pada pengelolaan dan alur kerja proyek perangkat lunak secara keseluruhan, sementara **metode teknik** lebih berfokus pada penerapan teknik atau algoritma tertentu untuk menyelesaikan masalah dalam pengembangan atau analisis data. Keduanya saling melengkapi dalam menciptakan solusi perangkat lunak yang efisien dan efektif.
