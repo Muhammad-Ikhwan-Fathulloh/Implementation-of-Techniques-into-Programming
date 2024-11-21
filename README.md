@@ -1,4 +1,4 @@
-# Implementasi Metode Teknik / Algoritma ke dalam Pemrograman
+# Memahami Metode Teknik / Algoritma ke dalam Pemrograman
 
 ## Definisi Metode Pengembangan dan Metode Teknik
 
@@ -57,6 +57,10 @@ Metode teknik adalah pendekatan atau solusi spesifik yang digunakan untuk mengat
 - **Metode teknik** adalah alat atau solusi teknis yang digunakan dalam proses pengembangan berdasarkan metode pengembangan yang dipilih.
 
 Misalnya, dalam pengembangan perangkat lunak berbasis *Agile*, tim dapat menggunakan *Machine Learning* (metode teknik) untuk memproses data yang dikumpulkan selama pengembangan.
+
+---
+
+# Implementasi Metode Teknik / Algoritma ke dalam Pemrograman
 
 ---
 
@@ -268,7 +272,7 @@ Misalnya, dalam pengembangan perangkat lunak berbasis *Agile*, tim dapat menggun
 - **Layer 2 Solutions**: Solusi untuk mengatasi keterbatasan skalabilitas blockchain utama, seperti mengurangi biaya transaksi dan meningkatkan kecepatan. Contoh: **Polygon**, **Arbitrum**.
 
 ### Example Code
-- [Web 3 - Bahasa Pemrograman Javascript](https://github.com/Muhammad-Ikhwan-Fathulloh/Implementation-of-Techniques-into-Programming/tree/main/Web3).
+- [Web3 - Bahasa Pemrograman Javascript](https://github.com/Muhammad-Ikhwan-Fathulloh/Implementation-of-Techniques-into-Programming/tree/main/Web3).
 
 ---
 
