@@ -274,4 +274,46 @@ Misalnya, dalam pengembangan perangkat lunak berbasis *Agile*, tim dapat menggun
 
 ---
 
-Dengan demikian, **metode pengembangan** berfokus pada pengelolaan dan alur kerja proyek perangkat lunak secara keseluruhan, sementara **metode teknik** lebih berfokus pada penerapan teknik atau algoritma tertentu untuk menyelesaikan masalah dalam pengembangan atau analisis data. Keduanya saling melengkapi dalam menciptakan solusi perangkat lunak yang efisien dan efektif.
+## Metode Embedded System
+
+### RTOS (Real-Time Operating System)
+#### **Karakteristik**:
+- Memiliki **determinisme waktu** yang tinggi, artinya dapat memproses tugas dalam batas waktu tertentu.
+- Mengelola multitasking dengan prioritas tugas menggunakan **scheduling algoritma** seperti Round Robin, Rate Monotonic, atau Earliest Deadline First.
+- Dirancang untuk sistem **real-time**, di mana waktu respons sangat penting (misalnya, dalam sistem kontrol kendaraan, robotika, atau sistem IoT).
+
+### Fuzzy Logic
+#### **Karakteristik**:
+- Menggunakan logika kabur (fuzzy logic) untuk menangani **informasi tidak pasti** atau **variabel linguistik** (contoh: "panas", "sedang", "dingin").
+- Cocok untuk sistem di mana model matematis tidak tersedia atau terlalu kompleks.
+- Bersifat **fleksibel** dan dapat diadaptasi untuk pengambilan keputusan.
+
+### PID (Proportional-Integral-Derivative)
+#### **Karakteristik**:
+- Digunakan untuk **pengendalian loop tertutup** dalam sistem dinamis.
+- Terdiri dari tiga komponen:
+  - **Proportional (P)**: Mengukur error secara langsung.
+  - **Integral (I)**: Mengurangi error jangka panjang.
+  - **Derivative (D)**: Mengantisipasi perubahan error di masa depan.
+- Sederhana namun sangat efektif untuk menjaga kestabilan sistem.
+
+### Machine Learning on Edge Devices
+#### **Karakteristik**:
+- Menggunakan model pembelajaran mesin yang dioptimalkan untuk dijalankan langsung pada perangkat dengan sumber daya terbatas.
+- Cocok untuk aplikasi yang memerlukan **prediksi real-time** tanpa bergantung pada cloud.
+- Metode meliputi **tinyML**, **quantized neural networks**, atau model inferensi berbasis TensorFlow Lite.
+
+### Event-Driven Programming
+#### **Karakteristik**:
+- Sistem berbasis event menangani tugas ketika **event (kejadian)** tertentu terjadi, seperti sinyal dari sensor atau input pengguna.
+- Sangat efisien untuk sistem yang tidak membutuhkan tugas berulang secara konstan.
+
+### Neural Network on FPGA
+#### **Karakteristik**:
+- FPGA (Field-Programmable Gate Array) digunakan untuk menjalankan model jaringan saraf dengan latensi sangat rendah.
+- Cocok untuk aplikasi **AI real-time** di perangkat dengan batasan daya.
+- Dikustomisasi secara perangkat keras untuk kinerja optimal.
+
+---
+
+Dengan demikian, **Metode Pengembangan** berfokus pada pengelolaan dan alur kerja proyek perangkat lunak secara keseluruhan, sementara **Metode Teknik** lebih berfokus pada penerapan teknik atau algoritma tertentu untuk menyelesaikan masalah dalam pengembangan atau analisis data. Keduanya saling melengkapi dalam menciptakan solusi perangkat lunak yang efisien dan efektif.
