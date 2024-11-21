@@ -318,7 +318,11 @@ Misalnya, dalam pengembangan perangkat lunak berbasis *Agile*, tim dapat menggun
 
 # Menggabungkan Metode Teknik / Algoritma ke Aplikasi
 
+## Monolith
+
 ![Monolith](/Assets/Diagram/Metode-Teknik-Monolith.png)
+
+## Microservice
 
 ![Microservice](/Assets/Diagram/Metode-Teknik-Microservice.png)
 
