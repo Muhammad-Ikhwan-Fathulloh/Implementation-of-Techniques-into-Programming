@@ -62,8 +62,6 @@ Misalnya, dalam pengembangan perangkat lunak berbasis *Agile*, tim dapat menggun
 
 # Implementasi Metode Teknik / Algoritma ke dalam Pemrograman
 
----
-
 ## Metode Struktur Data
 ### FIFO (First In, First Out)
 - Karakteristik:
