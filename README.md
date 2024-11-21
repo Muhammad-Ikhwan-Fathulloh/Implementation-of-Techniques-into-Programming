@@ -316,4 +316,12 @@ Misalnya, dalam pengembangan perangkat lunak berbasis *Agile*, tim dapat menggun
 
 ---
 
+# Menggabungkan Metode Teknik / Algoritma ke Aplikasi
+
+![Monolith](/Assets/Diagram/Metode-Teknik-Monolith.png)
+
+![Microservice](/Assets/Diagram/Metode-Teknik-Microservice.png)
+
+---
+
 Dengan demikian, **Metode Pengembangan** berfokus pada pengelolaan dan alur kerja proyek perangkat lunak secara keseluruhan, sementara **Metode Teknik** lebih berfokus pada penerapan teknik atau algoritma tertentu untuk menyelesaikan masalah dalam pengembangan atau analisis data. Keduanya saling melengkapi dalam menciptakan solusi perangkat lunak yang efisien dan efektif.
