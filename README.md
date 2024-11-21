@@ -141,3 +141,55 @@
 
 ### Lain-lain
 - Teknik lain seperti **deep learning**, **unsupervised learning**, dan **edge AI** juga digunakan dalam aplikasi AI.
+
+## Metode Web3
+
+### Blockchain
+- **Karakteristik**:
+  - Struktur data terdesentralisasi yang terdiri dari blok-blok yang saling terhubung.
+  - Memungkinkan penyimpanan data secara aman, transparan, dan tidak dapat diubah.
+  - Contoh penerapan: cryptocurrency, sistem pencatatan transaksi, dan pengelolaan aset digital.
+
+### Smart Contract
+- **Karakteristik**:
+  - Program yang berjalan di blockchain dan otomatis mengeksekusi logika berdasarkan kondisi tertentu.
+  - Menghilangkan kebutuhan pihak ketiga untuk verifikasi.
+  - Contoh penerapan: aplikasi DeFi (Decentralized Finance), sistem voting, dan penjualan NFT.
+
+### Decentralized Applications (DApps)
+- **Karakteristik**:
+  - Aplikasi yang berjalan di jaringan blockchain tanpa server terpusat.
+  - Menggunakan smart contract untuk menangani logika backend.
+  - Contoh penerapan: aplikasi pinjaman terdesentralisasi, platform NFT marketplace, dan platform DAO (Decentralized Autonomous Organization).
+
+### Wallet Integration
+- **Karakteristik**:
+  - Sistem dompet digital yang memungkinkan pengguna mengelola kunci pribadi untuk mengakses aset kripto.
+  - Mendukung pengelolaan transaksi langsung di aplikasi Web3.
+  - Contoh: MetaMask, Trust Wallet, Coinbase Wallet.
+
+### Interaksi Blockchain dengan Library Web3
+- **Karakteristik**:
+  - Memungkinkan pengembang untuk berinteraksi dengan blockchain menggunakan JavaScript.
+  - Library populer: **web3.js**, **ethers.js**.
+  - Contoh fungsi:
+    - Membaca data blockchain.
+    - Mengirim transaksi.
+    - Menjalankan fungsi pada smart contract.
+
+### NFT (Non-Fungible Token)
+- **Karakteristik**:
+  - Aset digital yang unik dan tidak dapat digantikan, disimpan di blockchain.
+  - Contoh penerapan: seni digital, koleksi, dan tiket acara berbasis NFT.
+
+### DAO (Decentralized Autonomous Organization)
+- **Karakteristik**:
+  - Organisasi yang dikelola oleh komunitas menggunakan smart contract.
+  - Transparan dan bebas dari kontrol pihak ketiga.
+  - Contoh penerapan: crowdfunding, pengelolaan investasi kolektif.
+
+### Lain-lain
+- **Bridges**: Menghubungkan blockchain yang berbeda untuk interoperabilitas, memungkinkan transfer data atau aset antar jaringan blockchain.
+- **IPFS (InterPlanetary File System)**: Sistem penyimpanan file terdesentralisasi yang mendukung aplikasi Web3 dengan keamanan dan keandalan tinggi.
+- **Layer 2 Solutions**: Solusi untuk mengatasi keterbatasan skalabilitas blockchain utama, seperti mengurangi biaya transaksi dan meningkatkan kecepatan. Contoh: **Polygon**, **Arbitrum**.
+---
