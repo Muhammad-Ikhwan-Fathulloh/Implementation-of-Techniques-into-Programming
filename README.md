@@ -97,11 +97,6 @@
   - Memisahkan logika akses data dari logika bisnis.
   - Menggunakan lapisan repository untuk mengelola operasi CRUD.
 
-### Monolith dan Microservice
-- Karakteristik:
-  - **Monolith**: Aplikasi terintegrasi dalam satu kesatuan.
-  - **Microservice**: Aplikasi dibagi menjadi layanan-layanan kecil yang independen.
-
 ### Lain-lain
 - Pola desain lain seperti **Factory Pattern**, **Observer Pattern**, dan **Builder Pattern** juga digunakan untuk menyelesaikan masalah tertentu.
 
