@@ -266,6 +266,10 @@ Misalnya, dalam pengembangan perangkat lunak berbasis *Agile*, tim dapat menggun
 - **Bridges**: Menghubungkan blockchain yang berbeda untuk interoperabilitas, memungkinkan transfer data atau aset antar jaringan blockchain.
 - **IPFS (InterPlanetary File System)**: Sistem penyimpanan file terdesentralisasi yang mendukung aplikasi Web3 dengan keamanan dan keandalan tinggi.
 - **Layer 2 Solutions**: Solusi untuk mengatasi keterbatasan skalabilitas blockchain utama, seperti mengurangi biaya transaksi dan meningkatkan kecepatan. Contoh: **Polygon**, **Arbitrum**.
+
+### Example Code
+- [Web 3 - Bahasa Pemrograman Javascript](https://github.com/Muhammad-Ikhwan-Fathulloh/Implementation-of-Techniques-into-Programming/tree/main/Web3).
+
 ---
 
 Dengan demikian, **metode pengembangan** berfokus pada pengelolaan dan alur kerja proyek perangkat lunak secara keseluruhan, sementara **metode teknik** lebih berfokus pada penerapan teknik atau algoritma tertentu untuk menyelesaikan masalah dalam pengembangan atau analisis data. Keduanya saling melengkapi dalam menciptakan solusi perangkat lunak yang efisien dan efektif.
