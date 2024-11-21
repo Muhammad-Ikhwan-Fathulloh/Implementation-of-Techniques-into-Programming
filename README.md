@@ -182,6 +182,9 @@ Misalnya, dalam pengembangan perangkat lunak berbasis *Agile*, tim dapat menggun
 ### Lain-lain
 - Teknik seperti **finite difference**, **metode Euler**, dan **transformasi Fourier** sering diterapkan dalam pemrosesan data numerik.
 
+### Example Code
+- [Numerik - Bahasa Pemrograman Javascript](https://github.com/Muhammad-Ikhwan-Fathulloh/Implementation-of-Techniques-into-Programming/tree/main/Numerik).
+
 ---
 
 ## Metode Kecerdasan Buatan
