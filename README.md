@@ -322,9 +322,13 @@ Misalnya, dalam pengembangan perangkat lunak berbasis *Agile*, tim dapat menggun
 
 ![Monolith](/Assets/Diagram/Metode-Teknik-Monolith.png)
 
+**Monolith** adalah sebuah arsitektur perangkat lunak di mana seluruh komponen dan fungsionalitas dari aplikasi digabung menjadi satu kesatuan tunggal. Semua bagian aplikasi dijalankan dalam satu proses dan dipaketkan sebagai satu entitas. Kelebihannya adalah mudah untuk di-deploy, namun sulit untuk di-maintain dan di-scale karena setiap perubahan kecil harus melakukan deploy seluruh aplikasi. 
+
 ## Microservice
 
 ![Microservice](/Assets/Diagram/Metode-Teknik-Microservice.png)
+
+**Microservice** adalah pendekatan arsitektur di mana aplikasi dipecah menjadi layanan-layanan kecil yang independen dan saling berinteraksi melalui API. Setiap microservice memiliki tanggung jawab spesifik dan bisa dikembangkan, di-deploy, dan di-scale secara terpisah. Keuntungan microservice adalah fleksibilitas, skalabilitas yang lebih baik, dan kemampuan untuk menggunakan teknologi yang berbeda untuk setiap layanan.
 
 ---
 
