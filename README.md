@@ -330,6 +330,12 @@ Misalnya, dalam pengembangan perangkat lunak berbasis *Agile*, tim dapat menggun
 
 **Microservice** adalah pendekatan arsitektur di mana aplikasi dipecah menjadi layanan-layanan kecil yang independen dan saling berinteraksi melalui API. Setiap microservice memiliki tanggung jawab spesifik dan bisa dikembangkan, di-deploy, dan di-scale secara terpisah. Keuntungan microservice adalah fleksibilitas, skalabilitas yang lebih baik, dan kemampuan untuk menggunakan teknologi yang berbeda untuk setiap layanan.
 
+## Monolith + Microservice (Metode / Algoritma Teknik)
+
+![Monolith + Microservice](/Assets/Diagram/Metode-Teknik-Monolith-Microservice.png)
+
+**Monolith + Microservice (Metode / Algoritma Teknik)** adalah pendekatan aplikasi yang bersifat monolith digabung dengan microservice untuk proses pengolahan metode / algoritma teknik. Pendekatan ini digunakan jika aplikasi dan metode / algoritma teknik yang dikembangkan berbeda bahasa pemrograman.
+
 ---
 
 Dengan demikian, **Metode Pengembangan** berfokus pada pengelolaan dan alur kerja proyek perangkat lunak secara keseluruhan, sementara **Metode Teknik** lebih berfokus pada penerapan teknik atau algoritma tertentu untuk menyelesaikan masalah dalam pengembangan atau analisis data. Keduanya saling melengkapi dalam menciptakan solusi perangkat lunak yang efisien dan efektif.
