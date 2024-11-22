@@ -1,5 +1,5 @@
 {
-  "name": "reveal.js",
+  "name": "Muhammad Ikhwan Fathulloh - Implementasi Metode / Algoritma Teknik ke dalam Pemrograman",
   "version": "5.1.0",
   "description": "The HTML Presentation Framework",
   "homepage": "https://revealjs.com",
@@ -13,13 +13,13 @@
     "build": "gulp build"
   },
   "author": {
-    "name": "Hakim El Hattab",
-    "email": "hakim.elhattab@gmail.com",
-    "web": "https://hakim.se"
+    "name": "Muhammad Ikhwan Fathulloh",
+    "email": "-",
+    "web": "https://ikhwanfathulloh.netlify.app/"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/hakimel/reveal.js.git"
+    "url": "git://github.com/Muhammad-Ikhwan-Fathulloh/Implementation-of-Techniques-into-Programming.git"
   },
   "engines": {
     "node": ">=18.0.0"

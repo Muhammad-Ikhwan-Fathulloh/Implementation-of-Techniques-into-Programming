@@ -249,7 +249,10 @@
 			// - https://revealjs.com/config/
 			Reveal.initialize({
 				hash: true,
-
+				slideNumber: (slide) => {
+					// Ignore numbering of vertical slides
+					return [Reveal.getIndices(slide).h];
+				},
 				// Learn about plugins: https://revealjs.com/plugins/
 				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
 			});
