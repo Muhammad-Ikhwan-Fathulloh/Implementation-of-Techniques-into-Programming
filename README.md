@@ -216,6 +216,10 @@ Misalnya, dalam pengembangan perangkat lunak berbasis *Agile*, tim dapat menggun
 ### Example Code
 - [Kecerdasan Buatan - Bahasa Pemrograman Python](https://github.com/Muhammad-Ikhwan-Fathulloh/Implementation-of-Techniques-into-Programming/tree/main/KecerdasanBuatan).
 
+- [Prediksi Asal Nama](https://github.com/Muhammad-Ikhwan-Fathulloh/Hands-On-NLP-Super-Class-Batch1/tree/main/RNN)
+
+- [Deteksi Masker](https://github.com/Muhammad-Ikhwan-Fathulloh/Learn-Object-Detection-with-Yolo)
+
 ---
 
 ## Metode Web3

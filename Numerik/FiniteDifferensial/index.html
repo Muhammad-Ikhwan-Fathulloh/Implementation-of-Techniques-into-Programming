@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulasi Pertumbuhan Populasi</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            text-align: center;
+        }
+        table {
+            width: 100%;
+            margin-top: 20px;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+        input[type="number"], button {
+            padding: 5px;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Simulasi Pertumbuhan Populasi dengan Metode Finite Difference</h1>
+
+    <div>
+        <label for="growthRate">Laju Pertumbuhan (r):</label>
+        <input type="number" id="growthRate" value="0.1" step="0.01">
+
+        <label for="initialPopulation">Populasi Awal (P0):</label>
+        <input type="number" id="initialPopulation" value="100" step="1">
+
+        <label for="timeSteps">Jumlah Langkah Waktu:</label>
+        <input type="number" id="timeSteps" value="50" step="1">
+
+        <button onclick="runSimulation()">Mulai Simulasi</button>
+    </div>
+
+    <h2>Hasil Simulasi</h2>
+    <table id="resultTable">
+        <thead>
+            <tr>
+                <th>Waktu (t)</th>
+                <th>Populasi (P)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Hasil simulasi akan ditampilkan di sini -->
+        </tbody>
+    </table>
+
+    <script>
+        // Fungsi untuk menghitung populasi menggunakan metode finite difference
+        function finiteDifference(r, P0, timeSteps) {
+            let t = 0;
+            let P = P0;
+            let results = [];
+
+            // Simulasi dari t=0 hingga t=end
+            for (let i = 0; i <= timeSteps; i++) {
+                results.push({ t: t.toFixed(2), P: P.toFixed(2) });
+
+                // Menghitung nilai P(t+dt)
+                P = P + r * P;  // Euler method: P(n+1) = P(n) + r * P(n)
+                t += 1;  // Menambah waktu 1 unit pada setiap langkah
+            }
+
+            return results;
+        }
+
+        // Fungsi untuk menjalankan simulasi
+        function runSimulation() {
+            const r = parseFloat(document.getElementById("growthRate").value);  // Laju pertumbuhan
+            const P0 = parseFloat(document.getElementById("initialPopulation").value);  // Populasi awal
+            const timeSteps = parseInt(document.getElementById("timeSteps").value);  // Jumlah langkah waktu
+
+            // Memanggil fungsi finite difference untuk menghitung hasil
+            const results = finiteDifference(r, P0, timeSteps);
+
+            // Menampilkan hasil dalam tabel
+            const tbody = document.getElementById("resultTable").getElementsByTagName("tbody")[0];
+            tbody.innerHTML = "";  // Menghapus hasil sebelumnya
+
+            results.forEach(step => {
+                const row = tbody.insertRow();
+                const cell1 = row.insertCell(0);
+                const cell2 = row.insertCell(1);
+                cell1.textContent = step.t;
+                cell2.textContent = step.P;
+            });
+        }
+    </script>
+
+</body>
+</html>
