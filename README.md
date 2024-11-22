@@ -1,4 +1,4 @@
-# Memahami Metode Teknik / Algoritma ke dalam Pemrograman
+# Memahami Metode / Algoritma Teknik ke dalam Pemrograman
 
 ## Definisi Metode Pengembangan dan Metode Teknik
 
@@ -60,7 +60,7 @@ Misalnya, dalam pengembangan perangkat lunak berbasis *Agile*, tim dapat menggun
 
 ---
 
-# Implementasi Metode Teknik / Algoritma ke dalam Pemrograman
+# Macam-macam Metode / Teknik Algoritma ke dalam Pemrograman
 
 ## Metode Struktur Data
 ### FIFO (First In, First Out)
@@ -320,7 +320,7 @@ Misalnya, dalam pengembangan perangkat lunak berbasis *Agile*, tim dapat menggun
 
 ---
 
-# Menggabungkan Metode Teknik / Algoritma ke Aplikasi
+# Menggabungkan Metode / Algoritma Teknik ke Aplikasi
 
 ## Monolith (Metode / Algoritma Teknik)
 
