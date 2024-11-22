@@ -314,6 +314,10 @@ Misalnya, dalam pengembangan perangkat lunak berbasis *Agile*, tim dapat menggun
 - Cocok untuk aplikasi **AI real-time** di perangkat dengan batasan daya.
 - Dikustomisasi secara perangkat keras untuk kinerja optimal.
 
+### Example Code
+- [RTOS - Bahasa Pemrograman C++](https://github.com/Muhammad-Ikhwan-Fathulloh/ESP32-dengan-Free-RTOS).
+- [Machine Learning - Bahasa Pemrograman Python](https://github.com/Muhammad-Ikhwan-Fathulloh/BMI-Prediction-with-ESP32).
+
 ---
 
 # Menggabungkan Metode Teknik / Algoritma ke Aplikasi
