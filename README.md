@@ -318,23 +318,91 @@ Misalnya, dalam pengembangan perangkat lunak berbasis *Agile*, tim dapat menggun
 
 # Menggabungkan Metode Teknik / Algoritma ke Aplikasi
 
-## Monolith
+## Monolith (Metode / Algoritma Teknik)
 
 ![Monolith](/Assets/Diagram/Metode-Teknik-Monolith.png)
 
-**Monolith** adalah sebuah arsitektur perangkat lunak di mana seluruh komponen dan fungsionalitas dari aplikasi digabung menjadi satu kesatuan tunggal. Semua bagian aplikasi dijalankan dalam satu proses dan dipaketkan sebagai satu entitas. Kelebihannya adalah mudah untuk di-deploy, namun sulit untuk di-maintain dan di-scale karena setiap perubahan kecil harus melakukan deploy seluruh aplikasi. 
+### **Definisi**
+Monolith adalah sebuah arsitektur perangkat lunak di mana seluruh komponen dan fungsionalitas aplikasi digabung menjadi satu kesatuan tunggal. Semua bagian aplikasi dijalankan dalam satu proses dan dipaketkan sebagai satu entitas.
 
-## Microservice
+### **Proses Menggabungkan Metode / Algoritma Teknik**
+1. **Implementasi dalam Basis Kode Tunggal**: Metode atau algoritma teknik ditulis langsung dalam basis kode monolith.
+2. **Integrasi dengan Modul Lain**: Algoritma teknik dipanggil sebagai fungsi atau modul dari bagian aplikasi lain.
+3. **Testing dan Deployment**: Setelah integrasi, seluruh aplikasi diuji sebagai satu unit dan di-deploy bersama algoritma.
+
+### **Ciri-ciri**
+1. **Basis kode tunggal**: Semua fitur, logika, dan algoritma teknik berada dalam satu basis kode.
+2. **Komunikasi langsung**: Fungsi algoritma dapat dipanggil secara langsung tanpa perlu API.
+
+### **Keuntungan**
+1. **Integrasi mudah**: Tidak memerlukan mekanisme komunikasi tambahan seperti API.
+2. **Sederhana**: Cocok untuk algoritma yang tidak terlalu kompleks atau hanya digunakan secara lokal.
+3. **Efisiensi performa**: Semua proses berjalan dalam satu konteks aplikasi.
+
+### **Kekurangan**
+1. **Kesulitan maintainability**: Perubahan kecil dalam algoritma dapat memengaruhi keseluruhan aplikasi.
+2. **Skalabilitas terbatas**: Algoritma yang berat dapat memperlambat aplikasi utama.
+
+---
+
+## Microservice (Metode / Algoritma Teknik)
 
 ![Microservice](/Assets/Diagram/Metode-Teknik-Microservice.png)
 
-**Microservice** adalah pendekatan arsitektur di mana aplikasi dipecah menjadi layanan-layanan kecil yang independen dan saling berinteraksi melalui API. Setiap microservice memiliki tanggung jawab spesifik dan bisa dikembangkan, di-deploy, dan di-scale secara terpisah. Keuntungan microservice adalah fleksibilitas, skalabilitas yang lebih baik, dan kemampuan untuk menggunakan teknologi yang berbeda untuk setiap layanan.
+### **Definisi**
+Microservice adalah arsitektur perangkat lunak yang memecah aplikasi menjadi layanan-layanan kecil yang berdiri sendiri. Metode atau algoritma teknik diisolasi dalam layanan terpisah untuk efisiensi dan skalabilitas.
+
+### **Proses Menggabungkan Metode / Algoritma Teknik**
+1. **Pengembangan Terpisah**: Algoritma teknik diimplementasikan dalam layanan microservice menggunakan bahasa atau framework terbaik untuk tugas tersebut.
+2. **Penyediaan API**: Microservice menyediakan endpoint API untuk memproses permintaan yang melibatkan algoritma teknik.
+3. **Integrasi dengan Aplikasi Utama**: Aplikasi utama memanggil API microservice ketika diperlukan.
+
+### **Ciri-ciri**
+1. **Decoupling penuh**: Algoritma teknik dipisahkan dari aplikasi utama.
+2. **Komunikasi melalui API**: Aplikasi utama mengirimkan data ke microservice dan menerima hasilnya.
+
+### **Keuntungan**
+1. **Fleksibilitas teknologi**: Algoritma dapat dikembangkan menggunakan alat yang paling sesuai.
+2. **Skalabilitas**: Algoritma dapat di-scale secara independen dari aplikasi utama.
+3. **Isolasi kesalahan**: Masalah pada algoritma tidak memengaruhi aplikasi utama.
+
+### **Kekurangan**
+1. **Kompleksitas tambahan**: Memerlukan pengelolaan API dan orkestrasi layanan.
+2. **Overhead komunikasi**: Interaksi melalui API dapat meningkatkan latensi.
+
+---
 
 ## Monolith + Microservice (Metode / Algoritma Teknik)
 
 ![Monolith + Microservice](/Assets/Diagram/Metode-Teknik-Monolith-Microservice.png)
 
-**Monolith + Microservice (Metode / Algoritma Teknik)** adalah pendekatan aplikasi yang bersifat monolith digabung dengan microservice untuk proses pengolahan metode / algoritma teknik. Pendekatan ini digunakan jika aplikasi dan metode / algoritma teknik yang dikembangkan berbeda bahasa pemrograman.
+### **Definisi**
+Pendekatan hybrid yang menggabungkan arsitektur monolith dengan microservice. Metode atau algoritma teknik dipisahkan ke dalam layanan microservice, sementara aplikasi utama tetap monolith.
+
+### **Proses Menggabungkan Metode / Algoritma Teknik**
+1. **Identifikasi Algoritma yang Berat**: Tentukan metode atau algoritma teknik yang memerlukan sumber daya tinggi atau sering berubah.
+2. **Isolasi ke dalam Microservice**: Algoritma tersebut diimplementasikan dalam microservice menggunakan bahasa pemrograman yang sesuai.
+3. **Penyediaan Endpoint API**: Microservice dibuat untuk menerima permintaan dari aplikasi utama.
+4. **Integrasi API ke Monolith**: Aplikasi monolith memanggil microservice melalui API untuk memproses algoritma teknik.
+5. **Pengembalian Data**: Hasil proses dari microservice dikembalikan ke aplikasi utama untuk digunakan lebih lanjut.
+
+### **Ciri-ciri**
+1. **Hybrid**: Kombinasi arsitektur monolith untuk aplikasi utama dan microservice untuk algoritma teknik.
+2. **Komunikasi API**: Data dikirim antara aplikasi monolith dan microservice menggunakan protokol seperti REST atau gRPC.
+
+### **Keuntungan**
+1. **Pemanfaatan Terbaik dari Kedua Arsitektur**: Stabilitas monolith untuk fitur utama dan fleksibilitas microservice untuk algoritma teknik.
+2. **Efisiensi Proses**: Algoritma berat dijalankan secara terpisah tanpa membebani aplikasi utama.
+3. **Skalabilitas Modular**: Algoritma teknik dapat di-scale secara independen.
+
+### **Kekurangan**
+1. **Latensi Tambahan**: Komunikasi antara monolith dan microservice dapat menambah waktu respons.
+2. **Kompleksitas Operasional**: Memerlukan pengelolaan infrastruktur untuk kedua arsitektur.
+
+### **Contoh Penggunaan**
+1. **Sistem Akademik**: Monolith untuk manajemen administrasi mahasiswa, dengan microservice untuk analisis prediksi keberhasilan studi menggunakan algoritma machine learning.
+2. **E-commerce**: Aplikasi monolith untuk katalog dan transaksi, dengan microservice untuk rekomendasi produk.
+3. **Aplikasi Medis**: Aplikasi utama untuk manajemen pasien, dengan microservice untuk analisis data kesehatan menggunakan algoritma AI.
 
 ---
 
